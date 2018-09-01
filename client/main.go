@@ -50,7 +50,7 @@ func main() {
 	}
 
 	v := url.Values{"info": {config.Source.Info}}
-	url := fmt.Sprintf("http://%s:%s?%s", config.Target.IP, config.Target.Port, v.Encode())
+	url := fmt.Sprintf("%s://%s:%s?%s", config.Target.Protocol, config.Target.IP, config.Target.Port, v.Encode())
 
 	response, err := http.Get(url)
 

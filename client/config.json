@@ -5,7 +5,7 @@
   },
   "target": {
     "info": "name=app-server-name, owner=ADO name",
-    "protocol": "https",
+    "protocol": "http",
     "ip": "localhost",
     "port": "8080"
   }
