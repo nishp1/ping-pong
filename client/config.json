@@ -1,0 +1,12 @@
+{
+  "source": {
+    "info": "name=app-client-name, owner=ADO name",
+    "ip": "localhost"
+  },
+  "target": {
+    "info": "name=app-server-name, owner=ADO name",
+    "protocol": "https",
+    "ip": "localhost",
+    "port": "8080"
+  }
+}
