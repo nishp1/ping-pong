@@ -1,7 +1,7 @@
 ### Installation
 
 - Clone repo and build locally by running `build.sh`
-- Or download latest from releases.
+- Or download latest from releases: https://github.com/nishp1/ping-pong/releases
 
 ### Configuration
 
